@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0;
+    text-align: justify;
 }
 
 section {
@@ -28,7 +29,6 @@ section {
 h1 {
     font-size: 50px;
     line-height: 25px;
-
 }
 
 .Orange-color {
@@ -55,16 +55,67 @@ h1 {
     height: 200px;
 }
 
-.middle-text {
-    text-align: center;
+#bishesh-two {
+    width: 80%;
+    height: 80px;
     margin-left: 20%;
 }
 
+
+.middle-text {
+    text-align:center; 
+    text-align:justify; 
+    margin-left: 20%;
+}
+
+#bishesh h1 {
+    text-align: center;
+}
+
+#bishesh-two h1 {
+    color: orange;
+}
+
+
+
 .tree-part {
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
     padding-bottom: 150px;
+}
+
+.four-part {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.last-banner {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-bottom: 300px;
+    background-image: url("images/bg-two.jpg");
+}
+
+.listbox {
+    margin: 10px;
+    box-shadow: 5px 7px 40px rgb(144, 144, 144);
+    height: 200px;
+    width: 100%;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.registration {
+    margin-left: 200px;
+}
+
+.submit  {
+    padding: 15px 150px ;
+    margin-left: 25%;
 }
 
 .box {
@@ -81,6 +132,14 @@ h1 {
 
 .box h1 {
     font-size: 30px;
+}
+
+.inputbox {
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(165, 193, 245);
 }
 
 footer {
